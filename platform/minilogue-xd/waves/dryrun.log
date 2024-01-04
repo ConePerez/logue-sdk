@@ -1,0 +1,17 @@
+make all -f /Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/cone/Documents/proyectos/logue-sdk'
+echo Compiler Options
+echo /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb -mno-thumb-interwork -DTHUMB_NO_INTERWORKING -DTHUMB_PRESENT -g -Os -mlittle-endian  -mfloat-abi=hard -mfpu=fpv4-sp-d16 -fsingle-precision-constant -fcheck-new -std=c11 -mstructure-size-boundary=8 -W -Wall -Wextra -Wa,-alms=/Users/cone/Documents/proyectos/logue-sdk/build/lst/ -DSTM32F401xC -DCORTEX_USE_FPU=TRUE -DARM_MATH_CM4 -D__FPU_PRESENT  -I. -I/Users/cone/Documents/proyectos/logue-sdk/inc -I/Users/cone/Documents/proyectos/logue-sdk/inc/api -I/Users/cone/Documents/proyectos/inc -I/Users/cone/Documents/proyectos/inc/dsp -I/Users/cone/Documents/proyectos/inc/utils -I/Users/cone/Documents/proyectos/../ext/CMSIS/CMSIS/Include
+echo
+mkdir -p /Users/cone/Documents/proyectos/logue-sdk/build
+mkdir -p /Users/cone/Documents/proyectos/logue-sdk/build/obj
+mkdir -p /Users/cone/Documents/proyectos/logue-sdk/build/lst
+make: Leaving directory `/Users/cone/Documents/proyectos/logue-sdk'
+ 
+/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile:26: project.mk: No such file or directory
+make: *** No rule to make target `project.mk'.
+make: Failed to remake makefile `project.mk'.
+make: *** No rule to make target `_unit.c', needed by `/Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o'.
+make: *** No rule to make target `Makefile', needed by `/Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o'.
+make: *** No rule to make target `/Users/cone/Documents/proyectos/logue-sdk/build/.elf', needed by `all'.
+

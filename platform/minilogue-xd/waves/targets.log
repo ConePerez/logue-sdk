@@ -1,0 +1,492 @@
+make all -f /Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Thu Dec 29 22:05:54 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 108)
+DINCDIR := /Users/cone/Documents/proyectos/logue-sdk/inc /Users/cone/Documents/proyectos/logue-sdk/inc/api /Users/cone/Documents/proyectos/inc /Users/cone/Documents/proyectos/inc/dsp /Users/cone/Documents/proyectos/inc/utils /Users/cone/Documents/proyectos/../ext/CMSIS/CMSIS/Include
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 53)
+LDSCRIPT := /Users/cone/Documents/proyectos/logue-sdk/ld/userosc.ld
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 137)
+OUTFILES := /Users/cone/Documents/proyectos/logue-sdk/build/.elf /Users/cone/Documents/proyectos/logue-sdk/build/.hex /Users/cone/Documents/proyectos/logue-sdk/build/.bin /Users/cone/Documents/proyectos/logue-sdk/build/.dmp /Users/cone/Documents/proyectos/logue-sdk/build/.list
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 117)
+DEFS := -DSTM32F401xC -DCORTEX_USE_FPU=TRUE -DARM_MATH_CM4 -D__FPU_PRESENT 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/cone/Documents/proyectos/logue-sdk
+# makefile
+SHELL = /bin/sh
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 50)
+BIN := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-objcopy -O binary
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 118)
+ADEFS := -DSTM32F401xC -DCORTEX_USE_FPU=TRUE -DARM_MATH_CM4 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 47)
+SZ := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-size
+# environment
+_ = /usr/bin/make
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 133)
+CFLAGS = $(MCFLAGS) $(TOPT) $(OPT) $(COPT) $(CWARN) -Wa,-alms=$(LSTDIR)/$(notdir $(<:.c=.lst)) $(DEFS)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 57)
+DDEFS := -DSTM32F401xC -DCORTEX_USE_FPU=TRUE -DARM_MATH_CM4 -D__FPU_PRESENT
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 34)
+MCU_MODEL := STM32F401xC
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 1)
+MAKEFILE_LIST :=  /Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 88)
+ASMSRC := 
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 43)
+CP := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-objcopy
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 19)
+ZIP = /usr/bin/zip
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 60)
+CXXOPT := -std=c++11 -fno-rtti -fno-exceptions -fno-non-call-exceptions
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 103)
+COBJS := /Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 44)
+AS := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc -x assembler-with-cpp
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 56)
+DADEFS := -DSTM32F401xC -DCORTEX_USE_FPU=TRUE -DARM_MATH_CM4
+# environment
+VSCODE_CWD = /
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 70)
+OPT := -g -Os -mlittle-endian  -mfloat-abi=hard -mfpu=fpv4-sp-d16 -fsingle-precision-constant -fcheck-new
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 80)
+PKGARCH := .mnlgxdunit
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 65)
+CXXWARN := 
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 41)
+LD := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 11)
+TOOLSDIR = $(PLATFORMDIR)/../../tools
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 5)
+PLATFORMDIR = $(abspath ..)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 84)
+BUILDDIR := /Users/cone/Documents/proyectos/logue-sdk/build
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 46)
+OD := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-objdump
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 13)
+EXTDIR = $(PLATFORMDIR)/../ext
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 73)
+TOPT := -mthumb -mno-thumb-interwork -DTHUMB_NO_INTERWORKING -DTHUMB_PRESENT
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 15)
+CMSISDIR = $(EXTDIR)/CMSIS/CMSIS
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 135)
+LDFLAGS := -mcpu=cortex-m4 -mthumb -mno-thumb-interwork -DTHUMB_NO_INTERWORKING -DTHUMB_PRESENT -g -Os -mlittle-endian  -mfloat-abi=hard -mfpu=fpv4-sp-d16 -fsingle-precision-constant -fcheck-new -nostartfiles  -Wl,-Map=/Users/cone/Documents/proyectos/logue-sdk/build/.map,--cref,--no-warn-mismatch,--library-path=/Users/cone/Documents/proyectos/logue-sdk/ld,--script=/Users/cone/Documents/proyectos/logue-sdk/ld/userosc.ld -Xlinker --just-symbols=/Users/cone/Documents/proyectos/logue-sdk/ld/osc_api.syms
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 17)
+LDDIR = $(PROJECTDIR)/ld
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.dct7mVn4hz/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 130)
+ODFLAGS := -x --syms
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 20)
+ZIP_ARGS := -r -m -q
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 59)
+COPT := -std=c11 -mstructure-size-boundary=8
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 106)
+OBJS :=   /Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o 
+# environment
+PWD = /Users/cone/Documents/proyectos/logue-sdk
+ 
+/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile:26: project.mk: No such file or directory
+make: *** No rule to make target `project.mk'.  Stop.
+
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 101)
+ASMOBJS := 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 94)
+CXXSRC := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/cone
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 90)
+ASMXSRC := 
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/cone/Library/Application Support/Code/CachedData/6261075646f055b99068d3688932416f2346dd3b
+# environment
+LOGNAME = cone
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 40)
+CXXC := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-g++
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 92)
+CSRC := /Users/cone/Documents/proyectos/logue-sdk/tpl/_unit.c 
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 86)
+LSTDIR := /Users/cone/Documents/proyectos/logue-sdk/build/lst
+# environment
+SHLVL = 1
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 49)
+HEX := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-objcopy -O ihex
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 39)
+CC := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 62)
+LDOPT := -Xlinker --just-symbols=/Users/cone/Documents/proyectos/logue-sdk/ld/osc_api.syms
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 131)
+ASFLAGS = $(MCFLAGS) -g $(TOPT) -Wa,-alms=$(LSTDIR)/$(notdir $(<:.s=.lst)) $(ADEFS)
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = cone
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 36)
+GCC_TARGET := arm-none-eabi-
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 9)
+INSTALLDIR = $(PROJECTDIR)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 67)
+FPU_OPTS := -mfloat-abi=hard -mfpu=fpv4-sp-d16 -fsingle-precision-constant -fcheck-new
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 132)
+ASXFLAGS = $(MCFLAGS) -g $(TOPT) -Wa,-alms=$(LSTDIR)/$(notdir $(<:.S=.lst)) $(ADEFS)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 45)
+AR := /Users/cone/Documents/proyectos/../../tools/gcc/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-ar
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 122)
+LIBDIR := 
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/1n/n76fn3ks05v42ghx27gsxvd80000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 129)
+MCFLAGS := -mcpu=cortex-m4
+# environment
+VSCODE_IPC_HOOK = /Users/cone/Library/Application Support/Code/1.73.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrp
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 104)
+CXXOBJS := 
+# environment
+MFLAGS = -Rrp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 102)
+ASMXOBJS := 
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.870447.870453
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 115)
+INCDIR := -I/Users/cone/Documents/proyectos/logue-sdk/inc -I/Users/cone/Documents/proyectos/logue-sdk/inc/api -I/Users/cone/Documents/proyectos/inc -I/Users/cone/Documents/proyectos/inc/dsp -I/Users/cone/Documents/proyectos/inc/utils -I/Users/cone/Documents/proyectos/../ext/CMSIS/CMSIS/Include
+# automatic
++F = $(notdir $+)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 32)
+MCU := cortex-m4
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 37)
+GCC_BIN_PATH = $(TOOLSDIR)/gcc/gcc-arm-none-eabi-5_4-2016q3/bin
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0:86
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 52)
+RULESPATH := /Users/cone/Documents/proyectos/logue-sdk/ld
+# default
+MAKEFILES := 
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 134)
+CXXFLAGS = $(MCFLAGS) $(TOPT) $(OPT) $(CXXOPT) $(CXXWARN) -Wa,-alms=$(LSTDIR)/$(notdir $(<:.cpp=.lst)) $(DEFS)
+# automatic
+<F = $(notdir $<)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 85)
+OBJDIR := /Users/cone/Documents/proyectos/logue-sdk/build/obj
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 81)
+MANIFEST := manifest.json
+# environment
+LC_ALL = C
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 64)
+CWARN := -W -Wall -Wextra
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 54)
+DLIBS := -lm
+# automatic
+^F = $(notdir $^)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 7)
+PROJECTDIR = $(abspath .)
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 82)
+PAYLOAD := payload.bin
+# default
+SUFFIXES := 
+# makefile (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 120)
+LIBS := -lm 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 5687
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=56/285=20%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /Users/cone/Documents/proyectos/logue-sdk/tpl: could not be stat'd.
+
+# No files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+/Users/cone/Documents/proyectos/logue-sdk/build/%.elf: /Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o  /Users/cone/Documents/proyectos/logue-sdk/ld/userosc.ld
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 186):
+	@echo Linking $@
+	@$(LD) $(OBJS) $(LDFLAGS) $(LIBS) -o $@
+	
+
+%.hex: %.elf
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 190):
+	@echo Creating $@
+	@$(HEX) $< $@
+	
+
+%.bin: %.elf
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 194):
+	@echo Creating $@
+	@$(BIN) $< $@
+	
+
+%.dmp: %.elf
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 198):
+	@echo Creating $@
+	@$(OD) $(ODFLAGS) $< > $@
+	@echo
+	@$(SZ) $<
+	@echo
+	
+
+%.list: %.elf
+ 
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 205):
+	@echo Creating $@
+	@$(OD) -S $< > $@
+	
+
+# 5 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+_unit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: PRE_ALL /Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o /Users/cone/Documents/proyectos/logue-sdk/build/.elf /Users/cone/Documents/proyectos/logue-sdk/build/.hex /Users/cone/Documents/proyectos/logue-sdk/build/.bin /Users/cone/Documents/proyectos/logue-sdk/build/.dmp /Users/cone/Documents/proyectos/logue-sdk/build/.list POST_ALL
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 148):
+	@echo Done
+	@echo
+	
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/build/.elf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+PRE_ALL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-29 21:54:36
+#  File has not been updated.
+
+POST_ALL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+project.mk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/build/.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/cone/Documents/proyectos/logue-sdk/build/obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 164):
+	@mkdir -p $(OBJDIR)
+	
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/build/.list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/cone/Documents/proyectos/logue-sdk/build/lst:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 167):
+	@mkdir -p $(LSTDIR)
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 209):
+	@echo Cleaning
+	-rm -fR $(PROJECTDIR)/.dep $(BUILDDIR) $(PROJECTDIR)/$(PKGARCH)
+	@echo Done
+	@echo
+	
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/build/.dmp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/cone/Documents/proyectos/logue-sdk/build/.mnlgxdunit: | /Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o /Users/cone/Documents/proyectos/logue-sdk/build/.elf /Users/cone/Documents/proyectos/logue-sdk/build/.hex /Users/cone/Documents/proyectos/logue-sdk/build/.bin /Users/cone/Documents/proyectos/logue-sdk/build/.dmp /Users/cone/Documents/proyectos/logue-sdk/build/.list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 215):
+	@echo Packaging to $(BUILDDIR)/$(PKGARCH)
+	@mkdir -p $(BUILDDIR)/$(PROJECT)
+	@cp -a $(PROJECTDIR)/$(MANIFEST) $(BUILDDIR)/$(PROJECT)/
+	@cp -a $(BUILDDIR)/$(PROJECT).bin $(BUILDDIR)/$(PROJECT)/$(PAYLOAD)
+	@cd $(BUILDDIR) && $(ZIP) $(ZIP_ARGS) $(PROJECT).zip $(PROJECT)
+	@mv $(BUILDDIR)/$(PROJECT).zip $(BUILDDIR)/$(PKGARCH)
+	
+
+/Users/cone/Documents/proyectos/logue-sdk/build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 158):
+	@echo Compiler Options
+	@echo $(CC) -c $(CFLAGS) -I. $(INCDIR)
+	@echo
+	@mkdir -p $(BUILDDIR)
+	
+
+# Not a target:
+/Users/cone/Documents/proyectos/logue-sdk/build/.hex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: /Users/cone/Documents/proyectos/logue-sdk/build/.mnlgxdunit
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 223):
+	@echo Deploying to $(INSTALLDIR)/$(PKGARCH)
+	@mv $(BUILDDIR)/$(PKGARCH) $(INSTALLDIR)/$(PKGARCH)
+	@echo Done
+	@echo
+	
+
+/Users/cone/Documents/proyectos/logue-sdk/build/obj/_unit.o: _unit.c Makefile | /Users/cone/Documents/proyectos/logue-sdk/build /Users/cone/Documents/proyectos/logue-sdk/build/obj /Users/cone/Documents/proyectos/logue-sdk/build/lst
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `_unit'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/Makefile', line 178):
+	@echo Compiling $(<F)
+	@$(CC) -c $(CFLAGS) -I. $(INCDIR) $< -o $@
+	
+
+# files hash-table stats:
+# Load=21/1024=2%, Rehash=0, Collisions=3/56=5%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 2
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4006 / max = 4006 / min = 4006 / avg = 4006
+
+# Finished Make data base on Thu Dec 29 22:05:54 2022
+
+ 

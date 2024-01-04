@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/build",
+            "binaryPath": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/waves/build/waves.elf",
+            "binaryArgs": []
+        }
+    ]
+}

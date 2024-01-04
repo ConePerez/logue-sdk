@@ -98,7 +98,7 @@ void OSC_CYCLE(const user_osc_param_t * const params,
   dsp::BiQuad &postlpf = s_waves.postlpf;
   
   q31_t * __restrict y = (q31_t *)yn;
-  const q31_t * y_e = y + frames;
+  const q31_t * y_e = y +  frames;
   
   for (; y != y_e; ) {
 

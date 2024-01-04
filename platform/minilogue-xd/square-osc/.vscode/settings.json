@@ -1,0 +1,14 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/square-osc/build",
+            "binaryPath": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/square-osc/build/square_osc.elf",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/square-osc/build",
+            "binaryPath": "/Users/cone/Documents/proyectos/logue-sdk/platform/minilogue-xd/square-osc/build/dummy_osc.elf",
+            "binaryArgs": []
+        }
+    ]
+}
